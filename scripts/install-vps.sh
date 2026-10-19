@@ -12,7 +12,7 @@
 
 set -euo pipefail
 
-REPO="${OCI_RELAY_REPO:-https://github.com/Ryanleoncoder/OCI-Relay.git}"
+REPO="${OCI_RELAY_REPO:-https://github.com/ryanlcruz/OCI-Relay.git}"
 DESTINO="${OCI_RELAY_HOME:-/opt/oci-relay}"
 DIR_CONFIG="/etc/oci-relay"
 DIR_ESTADO="/var/lib/oci-relay"

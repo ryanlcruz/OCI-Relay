@@ -88,7 +88,7 @@ que o encontre.
 Na VPS, com um usuário que tenha sudo:
 
 ```bash
-git clone https://github.com/Ryanleoncoder/OCI-Relay.git
+git clone https://github.com/ryanlcruz/OCI-Relay.git
 cd OCI-Relay
 ./scripts/install-vps.sh
 ```

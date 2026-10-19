@@ -2,7 +2,7 @@
 
 **English** · [Português](README.pt-BR.md)
 
-[![CI](https://github.com/Ryanleoncoder/OCI-Relay/actions/workflows/ci.yml/badge.svg)](https://github.com/Ryanleoncoder/OCI-Relay/actions/workflows/ci.yml)
+[![CI](https://github.com/ryanlcruz/OCI-Relay/actions/workflows/ci.yml/badge.svg)](https://github.com/ryanlcruz/OCI-Relay/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Operations companion for Oracle Cloud Infrastructure VPS instances, driven from Telegram.
@@ -91,7 +91,7 @@ The target is **Linux**, where the Relay runs as a service on the VPS itself. Wi
 ### Local (to try it)
 
 ```bash
-git clone https://github.com/Ryanleoncoder/OCI-Relay.git && cd OCI-Relay
+git clone https://github.com/ryanlcruz/OCI-Relay.git && cd OCI-Relay
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -102,7 +102,7 @@ python -m oci_relay
 ### On the VPS (as a service)
 
 ```bash
-git clone https://github.com/Ryanleoncoder/OCI-Relay.git
+git clone https://github.com/ryanlcruz/OCI-Relay.git
 cd OCI-Relay && ./scripts/install-vps.sh
 ```
 

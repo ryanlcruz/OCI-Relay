@@ -1,6 +1,6 @@
 [Unit]
 Description=OCI Relay — companion operacional para VPS na OCI
-Documentation=https://github.com/Ryanleoncoder/OCI-Relay
+Documentation=https://github.com/ryanlcruz/OCI-Relay
 After=network-online.target
 Wants=network-online.target
 
